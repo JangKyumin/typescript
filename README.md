@@ -78,3 +78,16 @@ any, unknown, never, null, undefined 타입으로 구성된다.
 - any[]
 - (number|string)[]
 - 그 외 타입은 정하기 나름으로 보임
+
+### Tuple
+
+JavaScript에서는 지원하지 않는 데이터 타입이지만, TypeScript에서는 배열 타입을 보다 특수한 형태로 사용할 수 있는 tuple 타입을 지원한다. 명시적으로 지정된 형식에 따라 아이템 순서를 설정해야 되고, 추가되는 아이템 또한 tuple에 명시된 타입만 사용 가능하다.
+
+- [string, number]와 같은 형식
+
+## 공부 사이트
+
+- [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)
+- [W3schools - typescript](https://www.w3schools.com/typescript/index.php)
+- [TypeScript Tutorial](https://www.typescripttutorial.net/)
+- [TypeScript Lang](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
