@@ -20,7 +20,7 @@ tsc -w
 ts-node simple-types.ts
 ```
 
-### 1.simple-types
+### simple-types
 
 아래 3가지 타입이 기본으로 사용되는 타입이다.
 
@@ -32,7 +32,7 @@ ts-node simple-types.ts
 >
 > - 타입이 정해지면 이후에 변경이 가능한가?
 
-### 2.special-types
+### special-types
 
 any, unknown, never, null, undefined 타입으로 구성된다.
 
@@ -67,3 +67,14 @@ any, unknown, never, null, undefined 타입으로 구성된다.
 > **궁금한 부분**
 >
 > - never는 어느 케이스에서 사용할까?
+
+### Array
+
+여러 타입의 배열을 구현할 수 있다.
+
+- number[]
+- string[]
+- boolean[]
+- any[]
+- (number|string)[]
+- 그 외 타입은 정하기 나름으로 보임
