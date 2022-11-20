@@ -12,6 +12,12 @@ npm install typescript -g
 
 2. typescript node 설치 : 일반 node에서는 ts 파일에 types 적용으로 실해시 오류 발생함
 npm install ts-node -g
+
+3. tsc 명령으로 타입스크립트 컴파일러를 사용하기
+tsc -w
+
+4. ts-node를 사용하여 .ts 파일 실행하기
+ts-node simple-types.ts
 ```
 
 ### 1.simple-types
@@ -48,6 +54,9 @@ any, unknown, never, null, undefined 타입으로 구성된다.
 - 일반적으로 함수의 리턴 타입으로 사용한다.
 - 항상 오류를 출력하거나 리턴 값을 절대로 내보내지 않음을 의미한다.
 - 무한 루프(loop)에 빠지는 것과 같다.
+- any 타입의 값을 포함해 어떤 값도 가질 수 없다.
+- 때때로 점유할 수 없는 또는 바닥 타입이라고 불린다.
+- 참고 : [타입스크립트의 Never 타입 완벽 가이드](https://ui.toast.com/posts/ko_20220323)
 
 #### null, undefined
 
