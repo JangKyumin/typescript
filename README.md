@@ -66,7 +66,7 @@ any, unknown, never, null, undefined 타입으로 구성된다.
 
 > **궁금한 부분**
 >
-> - never는 어느 케이스에서 사용할까?
+> - ~never는 어느 케이스에서 사용할까?~
 
 ### Array
 
