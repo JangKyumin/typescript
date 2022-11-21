@@ -85,6 +85,12 @@ JavaScript에서는 지원하지 않는 데이터 타입이지만, TypeScript에
 
 - [string, number]와 같은 형식
 
+### Object
+
+변수에 초기 설정된 값을 암시적으로 할당 가능한 데이터 타입으로 설정하기에 초기 설정된 값과 다른 형태로 할당될 경우 다음과 같은 오류가 발생한다.
+
+- 새 속성을 추가해도 오류 메시지를 출력하지 않게 구성하려면 [propName: string]: any를 사용 가능
+
 ## 공부 사이트
 
 - [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)
