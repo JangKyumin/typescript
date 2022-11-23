@@ -91,6 +91,21 @@ JavaScript에서는 지원하지 않는 데이터 타입이지만, TypeScript에
 
 - 새 속성을 추가해도 오류 메시지를 출력하지 않게 구성하려면 [propName: string]: any를 사용 가능
 
+### Enum
+
+열거형 데이터 타입이며 멤버라 불리는 명명된 값의 집합을 이루는 자료형이다.
+
+- 열거된 각 멤버는 별도의 값이 설정되지 않은 경우 기본적으로 0부터 시작한다.
+
+```typescript
+enum Team {
+  Manager, // 0
+  Planner, // 1
+  Developer, // 2
+  Designer, // 3
+}
+```
+
 ## 공부 사이트
 
 - [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)
