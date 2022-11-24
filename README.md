@@ -125,6 +125,10 @@ enum Team {
 
 - number | string
 
+### Function Return
+
+함수 리턴 타입을 선언할 수 있다.
+
 ## 공부 사이트
 
 - [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)
