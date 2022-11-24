@@ -106,6 +106,13 @@ enum Team {
 }
 ```
 
+### Assertion
+
+선언된 타입이 특정 타입 임을 단언해주는 역할
+
+- 앵글 브라켓(angle-bracket, <>) 문법
+- as 문법
+
 ## 공부 사이트
 
 - [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)
