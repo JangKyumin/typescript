@@ -113,6 +113,14 @@ enum Team {
 - 앵글 브라켓(angle-bracket, <>) 문법
 - as 문법
 
+### Function
+
+함수에 사용되는 매게변수는 타입을 선언해주는 것이 좋다.
+
+- tsconfig.json 설정에서 "noImplicitAny": true 일 경우에는 암시적인 any 사용 시, 오류 메시지를 출력한다.
+
+
+
 ## 공부 사이트
 
 - [TypeScript Guidebook](https://yamoo9.gitbook.io/typescript/types/tuple)

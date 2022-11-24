@@ -8,6 +8,7 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "./build", // js 파일이 저장될 디렉토리
-    "strictNullChecks": true // 엄격한 null 검사 사용, false로 설정 시 오류 발생하지 않음
+    "strictNullChecks": true, // 엄격한 null 검사 사용, false로 설정 시 오류 발생하지 않음
+    "noImplicitAny": true // 암시적인 any 사용 시, 오류 메시지를 출력
   }
 }
