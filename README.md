@@ -119,7 +119,11 @@ enum Team {
 
 - tsconfig.json 설정에서 "noImplicitAny": true 일 경우에는 암시적인 any 사용 시, 오류 메시지를 출력한다.
 
+### Union
 
+변수 타입을 선언 시 파이프(|)를 통해 여러 타입을 선언 가능하다.
+
+- number | string
 
 ## 공부 사이트
 
